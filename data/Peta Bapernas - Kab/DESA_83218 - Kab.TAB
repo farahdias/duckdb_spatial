@@ -1,0 +1,16 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 9
+    NO_PROV Decimal (19,6) ;
+    NO_KAB Decimal (19,6) ;
+    NO_KEC Decimal (19,6) ;
+    NO_DES Decimal (19,6) ;
+    PROV Char (254) ;
+    KAB_KOT Char (254) Index 1 ;
+    KEC Char (254) ;
+    KEL_DES Char (254) Index 2 ;
+    id_kab Integer (10) ;
